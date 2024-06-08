@@ -3,3 +3,6 @@ python yolo_tracking/infer.py
 
 #run tracking/track.py
 python yolo_tracking/track.py --tracking-method botsort --source 0 --show --img 640
+
+#change url git
+git remote set-url origin https://github.com/toanbh10032/BoxMOT_yolov8_tracking

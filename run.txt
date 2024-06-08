@@ -6,3 +6,12 @@ python yolo_tracking/track.py --tracking-method botsort --source 0 --show --img 
 
 #change url git
 git remote set-url origin https://github.com/toanbh10032/BoxMOT_yolov8_tracking
+
+#git init 
+git init
+git remote -v
+
+#git push
+git add .
+git commit -m "message"
+git push origin master

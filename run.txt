@@ -1,8 +1,8 @@
 #run infer
-python yolo_tracking/infer.py
+python infer.py
 
 #run tracking/track.py
-python yolo_tracking/track.py --tracking-method botsort --source 0 --show --img 640
+python tracking/track.py --tracking-method botsort --source 0 --show --img 640
 
 #change url git
 git remote set-url origin https://github.com/toanbh10032/BoxMOT_yolov8_tracking
@@ -14,4 +14,4 @@ git remote -v
 #git push
 git add .
 git commit -m "message"
-git push origin master (or git push)
+git push origin master (or git push or nothing)

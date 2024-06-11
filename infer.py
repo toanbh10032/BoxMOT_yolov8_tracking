@@ -20,16 +20,6 @@ detection_model = AutoDetectionModel.from_pretrained(
 )
 
 vid = cv2.VideoCapture(0)
-# vid.set(cv2.CAP_PROP_FRAME_WIDTH, 1920)
-# vid.set(cv2.CAP_PROP_FRAME_HEIGHT, 1080)
-# vid_fps = vid.get(cv2.CAP_PROP_FPS)
-# video_writer = cv2.VideoWriter(
-#         filename='output.mp4',
-#         # fourcc=fourcc,
-#         fps=vid_fps,
-#         # frameSize=(w, h*2),
-#     )
-
 color = (0, 0, 255)  # BGR
 thickness = 2
 fontscale = 0.5
